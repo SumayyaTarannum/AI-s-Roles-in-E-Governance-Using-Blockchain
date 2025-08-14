@@ -1,0 +1,67 @@
+{% load static %}
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title> AI Role in E E-Governance using Blockchain</title>
+<meta name="keywords" content="" />
+<meta name="Premium Series" content="" />
+<link href="{% static 'default.css' %}" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+<!-- start header -->
+<div id="header">
+	<div id="logo">
+		<h1><span><center> AI Role in E E-Governance using Blockchain
+</center></span></h1>
+		
+	</div>
+	<div id="menu">
+		<ul id="main">
+			<li><a href="{% url 'AddHospitals' %}"><font size="2" color="white">Add Hospitals</a></li><td></td>
+			<li><a href="{% url 'AddEducation' %}"><font size="2" color="white">Add Education Institutions</a></li><td></td>
+			<li><a href="{% url 'ViewHospitals' %}"><font size="2" color="white">View Hospitals</a></li><td></td>
+			<li><a href="{% url 'ViewEducation' %}"><font size="2" color="white">View Education Institutions</a></li><td></td>
+			<li><a href="{% url 'index' %}"><font size="2" color="white">Logout</a></li><td></td>
+			<td></td>
+			
+     
+		</ul>
+		
+	</div>
+	
+</div>
+<div id="wrapper">
+	<!-- start page -->
+	<div id="page">
+		
+		<!-- start content -->
+		<div id="content">
+			<div class="flower"><center><img src="{% static 'images/tra.jpg' %}" alt="" width="660" height="300" /></center></div>
+			<br/><br/>
+			<center><font size="3" color="black">{{ data|safe }}</font></center>
+		<center>
+		
+			<table align="center">
+			<tr>
+			<h3>
+			</p></h3>
+			</table>
+			</center><br /><div class="post">
+				
+				<div class="entry">
+					
+				</div>
+			</div>
+		</div>
+		<!-- end content -->
+		<!-- start sidebars -->
+		
+		<!-- end sidebars -->
+		<div style="clear: both;">&nbsp;</div>
+	</div>
+	<!-- end page -->
+</div>
+</body>
+</html>
+
+
